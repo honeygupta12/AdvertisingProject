@@ -1,0 +1,79 @@
+{
+  "uid" : "c4665afe664d2edc",
+  "name" : "9.Verify on what condition, the save button is getting enabled??",
+  "fullName" : "Herokuapp Advertisement Page.9.Verify on what condition, the save button is getting enabled??",
+  "historyId" : "fc7abc15a77066c42043a1737b34dd03",
+  "time" : {
+    "start" : 1653205008275,
+    "stop" : 1653205008275,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Herokuapp Advertisement Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Herokuapp Advertisement Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "9.Verify on what condition, the save button is getting enabled??"
+  }, {
+    "name" : "package",
+    "value" : "Herokuapp Advertisement Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aa1caa5d91916831",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1653204905245,
+        "stop" : 1653204905245,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3c053b5b9dd77fde",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1653202090035,
+        "stop" : 1653202090035,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3f48a6a2c4f4258c",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1653200249049,
+        "stop" : 1653200249050,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4665afe664d2edc.json",
+  "parameterValues" : [ ]
+}

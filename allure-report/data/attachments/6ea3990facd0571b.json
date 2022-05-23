@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//div[@class='md-input-message-animation ng-scope'][normalize-space()='This is required'])[1]"
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "eae107733c3006fc",
+  "name" : "5.Verify the advertisement are displayed successfully after creation",
+  "fullName" : "Herokuapp Advertisement App.5.Verify the advertisement are displayed successfully after creation",
+  "historyId" : "e33084c5f0b2d298f80a1ece741ff3a6",
+  "time" : {
+    "start" : 1653225546030,
+    "stop" : 1653225546030,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "testClass",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "testMethod",
+    "value" : "5.Verify the advertisement are displayed successfully after creation"
+  }, {
+    "name" : "package",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eae107733c3006fc.json",
+  "parameterValues" : [ ]
+}

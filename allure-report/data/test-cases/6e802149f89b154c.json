@@ -1,0 +1,451 @@
+{
+  "uid" : "6e802149f89b154c",
+  "name" : "3.Verify the mandatory fields present on the create advertisement page",
+  "fullName" : "Herokuapp Advertisement App.3.Verify the mandatory fields present on the create advertisement page",
+  "historyId" : "fc21d71b27dce6aca850f0dce102d4ad",
+  "time" : {
+    "start" : 1653216021155,
+    "stop" : 1653216031110,
+    "duration" : 9955
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Sys is not defined",
+  "statusTrace" : "ReferenceError: Sys is not defined\n                    at MyUtil.waitForPageToLoad (E:\\webdriverio\\test\\util\\myUtil.js:5:19)\n                    at CreateAdvertisementPage.validateMandatoryFieldsOnThePage (E:\\webdriverio\\test\\pageobjects\\createAdvertisementPage.js:80:22)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (E:\\webdriverio\\test\\specs\\advertisementTest.js:30:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Sys is not defined",
+    "statusTrace" : "ReferenceError: Sys is not defined\n                    at MyUtil.waitForPageToLoad (E:\\webdriverio\\test\\util\\myUtil.js:5:19)\n                    at CreateAdvertisementPage.validateMandatoryFieldsOnThePage (E:\\webdriverio\\test\\pageobjects\\createAdvertisementPage.js:80:22)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (E:\\webdriverio\\test\\specs\\advertisementTest.js:30:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1653216021169,
+        "stop" : 1653216026177,
+        "duration" : 5008
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d605fc72295046b",
+        "name" : "Request",
+        "source" : "5d605fc72295046b.json",
+        "type" : "application/json",
+        "size" : 71
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1653216026178,
+        "stop" : 1653216026369,
+        "duration" : 191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31f85caa43012a3a",
+        "name" : "Response",
+        "source" : "31f85caa43012a3a.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653216027184,
+        "stop" : 1653216027225,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c47dd6999520970f",
+        "name" : "Request",
+        "source" : "c47dd6999520970f.json",
+        "type" : "application/json",
+        "size" : 93
+      }, {
+        "uid" : "8bf7a44f3f548c4",
+        "name" : "Response",
+        "source" : "8bf7a44f3f548c4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/5e7e0a99-d5e7-4f04-80bd-ab3b47b6c72f/click",
+      "time" : {
+        "start" : 1653216027239,
+        "stop" : 1653216027467,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653216028469,
+        "stop" : 1653216028539,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ea38d9b1322c4c4",
+        "name" : "Request",
+        "source" : "6ea38d9b1322c4c4.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "a36d4f244fa689c0",
+        "name" : "Response",
+        "source" : "a36d4f244fa689c0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/b3d93916-0256-4f96-b29c-696c304cfdb0/click",
+      "time" : {
+        "start" : 1653216028547,
+        "stop" : 1653216028652,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653216028653,
+        "stop" : 1653216028711,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e61d03ce3573981f",
+        "name" : "Request",
+        "source" : "e61d03ce3573981f.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "fffa54065b00c95c",
+        "name" : "Response",
+        "source" : "fffa54065b00c95c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/b01f7633-203f-41dc-a273-549fcf548397/click",
+      "time" : {
+        "start" : 1653216028715,
+        "stop" : 1653216028809,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653216030810,
+        "stop" : 1653216030853,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ea3990facd0571b",
+        "name" : "Request",
+        "source" : "6ea3990facd0571b.json",
+        "type" : "application/json",
+        "size" : 131
+      }, {
+        "uid" : "c7bce208308c96bf",
+        "name" : "Response",
+        "source" : "c7bce208308c96bf.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1653216030859,
+        "stop" : 1653216030890,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b42ad9f38c1c056b",
+        "name" : "Request",
+        "source" : "b42ad9f38c1c056b.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "9d69bb133c6ac6f0",
+        "name" : "Response",
+        "source" : "9d69bb133c6ac6f0.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653216030890,
+        "stop" : 1653216030930,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3abeba89689efce2",
+        "name" : "Request",
+        "source" : "3abeba89689efce2.json",
+        "type" : "application/json",
+        "size" : 131
+      }, {
+        "uid" : "b3edc67f5fb38ee1",
+        "name" : "Response",
+        "source" : "b3edc67f5fb38ee1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1653216030935,
+        "stop" : 1653216030970,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6f6af9602c4a0f7",
+        "name" : "Request",
+        "source" : "b6f6af9602c4a0f7.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "2f5a92d61fd275cc",
+        "name" : "Response",
+        "source" : "2f5a92d61fd275cc.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653216030971,
+        "stop" : 1653216031016,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "525de301c34ddc4d",
+        "name" : "Request",
+        "source" : "525de301c34ddc4d.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "1a70ff01ef3059f2",
+        "name" : "Response",
+        "source" : "1a70ff01ef3059f2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653216031031,
+        "stop" : 1653216031109,
+        "duration" : 78
+      },
+      "status" : "broken",
+      "statusMessage" : "ReferenceError: Sys is not defined\n                    at MyUtil.waitForPageToLoad (E:\\webdriverio\\test\\util\\myUtil.js:5:19)\n                    at CreateAdvertisementPage.validateMandatoryFieldsOnThePage (E:\\webdriverio\\test\\pageobjects\\createAdvertisementPage.js:80:22)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (E:\\webdriverio\\test\\specs\\advertisementTest.js:30:9)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element/2388d702-8d85-4e1f-aa9c-0b78954432c7/click",
+        "time" : {
+          "start" : 1653216031049,
+          "stop" : 1653216031090,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9410898e95ea7f1d",
+          "name" : "Response",
+          "source" : "9410898e95ea7f1d.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1653216031103,
+          "stop" : 1653216031109,
+          "duration" : 6
+        },
+        "status" : "broken",
+        "statusMessage" : "ReferenceError: Sys is not defined\n                    at MyUtil.waitForPageToLoad (E:\\webdriverio\\test\\util\\myUtil.js:5:19)\n                    at CreateAdvertisementPage.validateMandatoryFieldsOnThePage (E:\\webdriverio\\test\\pageobjects\\createAdvertisementPage.js:80:22)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (E:\\webdriverio\\test\\specs\\advertisementTest.js:30:9)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d22c7bff61a8e300",
+        "name" : "Request",
+        "source" : "d22c7bff61a8e300.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/c8529aaf-c7b5-4019-9f96-245e15e34fa7/click",
+      "time" : {
+        "start" : 1653216031110,
+        "stop" : 0,
+        "duration" : -1653216031110
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 20,
+    "stepsCount" : 17,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "testClass",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "testMethod",
+    "value" : "3.Verify the mandatory fields present on the create advertisement page"
+  }, {
+    "name" : "package",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e802149f89b154c.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

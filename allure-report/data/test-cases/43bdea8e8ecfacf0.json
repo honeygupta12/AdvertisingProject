@@ -1,0 +1,194 @@
+{
+  "uid" : "43bdea8e8ecfacf0",
+  "name" : "1.Validate the title of the page",
+  "fullName" : "Herokuapp Advertisement App.1.Validate the title of the page",
+  "historyId" : "de0c4a0c1d77996fc64a098c401cb967",
+  "time" : {
+    "start" : 1653227366418,
+    "stop" : 1653227374098,
+    "duration" : 7680
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1653227366423,
+        "stop" : 1653227373832,
+        "duration" : 7409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "768b0f0040a756ca",
+        "name" : "Request",
+        "source" : "768b0f0040a756ca.json",
+        "type" : "application/json",
+        "size" : 71
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653227373835,
+        "stop" : 1653227374093,
+        "duration" : 258
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/window/maximize",
+        "time" : {
+          "start" : 1653227373843,
+          "stop" : 1653227373879,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d2824963618fc1b0",
+          "name" : "Response",
+          "source" : "d2824963618fc1b0.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "GET /session/:sessionId/element/d07ca289-9354-4da0-b37a-571a2aedb83e/text",
+        "time" : {
+          "start" : 1653227373900,
+          "stop" : 1653227374055,
+          "duration" : 155
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5c7c84ed507afccb",
+          "name" : "Response",
+          "source" : "5c7c84ed507afccb.json",
+          "type" : "application/json",
+          "size" : 58
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "153a4d2802a9cb7c",
+        "name" : "Request",
+        "source" : "153a4d2802a9cb7c.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "965db1445d8e24f4",
+        "name" : "Response",
+        "source" : "965db1445d8e24f4.json",
+        "type" : "application/json",
+        "size" : 16
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "testClass",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "testMethod",
+    "value" : "1.Validate the title of the page"
+  }, {
+    "name" : "package",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a6de96c4fdbefc6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653215843937,
+        "stop" : 1653215850533,
+        "duration" : 6596
+      }
+    }, {
+      "uid" : "cce69c0d5798910",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653215772501,
+        "stop" : 1653215788636,
+        "duration" : 16135
+      }
+    }, {
+      "uid" : "ab1f94ff32ff8d72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653207770364,
+        "stop" : 1653207778129,
+        "duration" : 7765
+      }
+    }, {
+      "uid" : "407fa19b72e3ccb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653206801710,
+        "stop" : 1653206809532,
+        "duration" : 7822
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43bdea8e8ecfacf0.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

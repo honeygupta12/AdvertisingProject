@@ -1,0 +1,165 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653225546027' stop='1653225554416'>
+    <name>Herokuapp Advertisement App</name>
+    <title>Herokuapp Advertisement App</title>
+    <test-cases>
+        <test-case start='1653225546028' status='pending' stop='1653225546028'>
+            <name>1.Validate the title of the page</name>
+            <title>1.Validate the title of the page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653225546029' status='pending' stop='1653225546029'>
+            <name>2.Validate the fields present on the create advertisement page</name>
+            <title>2.Validate the fields present on the create advertisement page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653225546029' status='pending' stop='1653225546029'>
+            <name>3.Verify the mandatory fields present on the create advertisement page</name>
+            <title>3.Verify the mandatory fields present on the create advertisement page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653225546030' status='pending' stop='1653225546030'>
+            <name>4.Create new advertisements succesfully using Json file</name>
+            <title>4.Create new advertisements succesfully using Json file</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653225546030' status='pending' stop='1653225546030'>
+            <name>5.Verify the advertisement are displayed successfully after creation</name>
+            <title>5.Verify the advertisement are displayed successfully after creation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653225546031' status='broken' stop='1653225554412'>
+            <name>6.Edit the existing advertisement</name>
+            <title>6.Edit the existing advertisement</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1653225546038' status='passed' stop='1653225553254'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='bec7def3-4b39-48fa-a6e4-76bcc980da0b-attachment.json' type='application/json' size='71'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1653225553254' status='passed' stop='1653225553443'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='28339cbb-9066-4549-a915-bfd4fdacff36-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1653225554270' status='broken' stop='1653225554411'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='59b5521a-d511-43f0-9272-144fc9f6741f-attachment.json' type='application/json' size='75'/>
+                    </attachments>
+                    <steps>
+                        <step start='1653225554407' status='broken' stop='1653225554411'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: Unable to locate an element with the xpath expression (tbody tr:nth-child(1) td:nth-child(1) because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(tbody tr:nth-child(1) td:nth-child(1)' is not a valid XPath expression.
+                  (Session info: chrome=101.0.4951.54)</message>
+                <stack-trace>invalid selector: invalid selector: Unable to locate an element with the xpath expression (tbody tr:nth-child(1) td:nth-child(1) because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(tbody tr:nth-child(1) td:nth-child(1)' is not a valid XPath expression.
+                  (Session info: chrome=101.0.4951.54)
+                    at getErrorFromResponseBody (E:\webdriverio\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (E:\webdriverio\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (E:\webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (E:\webdriverio\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (E:\webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async EditAdvertisementPage.editAdvertisement (E:\webdriverio\test\pageobjects\editAdvertisementPage.js:43:34)
+                    at async Context.&lt;anonymous> (E:\webdriverio\test\specs\advertisementTest.js:53:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653225554414' status='pending' stop='1653225554414'>
+            <name>7.Verify if the list of advertisements are getting sorted successfully</name>
+            <title>7.Verify if the list of advertisements are getting sorted successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653225554414' status='pending' stop='1653225554414'>
+            <name>8.Verify the format of price</name>
+            <title>8.Verify the format of price</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653225554415' status='pending' stop='1653225554415'>
+            <name>9.Verify on what condition, the save button is getting enabled??</name>
+            <title>9.Verify on what condition, the save button is getting enabled??</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

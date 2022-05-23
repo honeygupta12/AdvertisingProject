@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//md-icon[@class='al-add__icon ng-scope material-icons']\"}\n  (Session info: chrome=101.0.4951.54)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x002AB8F3+2406643]\n\tOrdinal0 [0x0023AF31+1945393]\n\tOrdinal0 [0x0012C748+837448]\n\tOrdinal0 [0x001592E0+1020640]\n\tOrdinal0 [0x0015957B+1021307]\n\tOrdinal0 [0x00186372+1205106]\n\tOrdinal0 [0x001742C4+1131204]\n\tOrdinal0 [0x00184682+1197698]\n\tOrdinal0 [0x00174096+1130646]\n\tOrdinal0 [0x0014E636+976438]\n\tOrdinal0 [0x0014F546+980294]\n\tGetHandleVerifier [0x00519612+2498066]\n\tGetHandleVerifier [0x0050C920+2445600]\n\tGetHandleVerifier [0x00344F2A+579370]\n\tGetHandleVerifier [0x00343D36+574774]\n\tOrdinal0 [0x00241C0B+1973259]\n\tOrdinal0 [0x00246688+1992328]\n\tOrdinal0 [0x00246775+1992565]\n\tOrdinal0 [0x0024F8D1+2029777]\n\tBaseThreadInitThunk [0x76D36A14+36]\n\tRtlInitializeExceptionChain [0x7790A9FF+143]\n\tRtlInitializeExceptionChain [0x7790A9CA+90]\n\t(No symbol) [0x00000000]\n"
+}

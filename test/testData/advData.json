@@ -1,0 +1,23 @@
+[
+    { "advertisement":
+       {"name": "Kanya Hotel",
+      "street": "MG Road",
+      "rooms": 1,
+      "price": "205",
+      "status": "True"}
+  },
+  {  "advertisement":
+      {"name": "Seva Sadan",
+      "street": "RV Street",
+      "rooms": 2,
+      "price": "100",
+      "status": "True"}
+  },
+  {  "advertisement":
+    {"name": "Rooms for free",
+    "street": "Jay Street",
+    "rooms": 2,
+    "price": "100",
+    "status": "True"}
+}
+]

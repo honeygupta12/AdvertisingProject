@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//md-icon[@class='al-add__icon ng-scope material-icons']"
+}

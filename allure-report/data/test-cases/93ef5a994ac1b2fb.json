@@ -1,0 +1,62 @@
+{
+  "uid" : "93ef5a994ac1b2fb",
+  "name" : "3.Verify the mandatory fields present on the create advertisement page",
+  "fullName" : "Herokuapp Advertisement Page.3.Verify the mandatory fields present on the create advertisement page",
+  "historyId" : "dcafb59b3b591065d663dddc85c5d860",
+  "time" : {
+    "start" : 1653205001978,
+    "stop" : 1653205008273,
+    "duration" : 6295
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Herokuapp Advertisement Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Herokuapp Advertisement Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "3.Verify the mandatory fields present on the create advertisement page"
+  }, {
+    "name" : "package",
+    "value" : "Herokuapp Advertisement Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93ef5a994ac1b2fb.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

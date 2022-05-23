@@ -1,0 +1,50 @@
+{
+  "uid" : "d93ce56aea6e360d",
+  "name" : "2.Validate the fields present on the create advertisement page",
+  "fullName" : "Herokuapp Advertisement App.2.Validate the fields present on the create advertisement page",
+  "historyId" : "8bf8272a0d6a5a294c9c5754ffc3030b",
+  "time" : {
+    "start" : 1653226105059,
+    "stop" : 1653226105059,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "testClass",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "testMethod",
+    "value" : "2.Validate the fields present on the create advertisement page"
+  }, {
+    "name" : "package",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d93ce56aea6e360d.json",
+  "parameterValues" : [ ]
+}

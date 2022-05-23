@@ -1,0 +1,50 @@
+{
+  "uid" : "845d71f9f0334ca3",
+  "name" : "9.Verify on what condition, the save button is getting enabled??",
+  "fullName" : "Herokuapp Advertisement App.9.Verify on what condition, the save button is getting enabled??",
+  "historyId" : "84383ad9b6ee032e7922650672d47de",
+  "time" : {
+    "start" : 1653226896050,
+    "stop" : 1653226896050,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "testClass",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "testMethod",
+    "value" : "9.Verify on what condition, the save button is getting enabled??"
+  }, {
+    "name" : "package",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "845d71f9f0334ca3.json",
+  "parameterValues" : [ ]
+}

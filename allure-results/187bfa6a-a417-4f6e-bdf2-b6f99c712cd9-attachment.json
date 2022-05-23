@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[contains(text(),'Invalid price(Valid currency in euros: 12,12)')]"
+}

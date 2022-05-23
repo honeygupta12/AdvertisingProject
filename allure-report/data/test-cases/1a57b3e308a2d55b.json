@@ -1,0 +1,52 @@
+{
+  "uid" : "1a57b3e308a2d55b",
+  "name" : "1.Validate the title of the page",
+  "fullName" : "Herokuapp Advertisement Page.1.Validate the title of the page",
+  "historyId" : "d9d312cb1940a1da51d3c81368ad5517",
+  "time" : {
+    "start" : 1653200241365,
+    "stop" : 1653200241365,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Herokuapp Advertisement Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Herokuapp Advertisement Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "1.Validate the title of the page"
+  }, {
+    "name" : "package",
+    "value" : "Herokuapp Advertisement Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a57b3e308a2d55b.json",
+  "parameterValues" : [ ]
+}

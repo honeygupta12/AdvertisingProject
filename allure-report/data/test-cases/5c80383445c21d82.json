@@ -1,0 +1,382 @@
+{
+  "uid" : "5c80383445c21d82",
+  "name" : "6.Edit the existing advertisement",
+  "fullName" : "Herokuapp Advertisement App.6.Edit the existing advertisement",
+  "historyId" : "e281e27a0887a7da6731660b5dbaeae1",
+  "time" : {
+    "start" : 1653227463901,
+    "stop" : 1653227474082,
+    "duration" : 10181
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 10,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1653227463908,
+        "stop" : 1653227471323,
+        "duration" : 7415
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3368b1c9b277b98f",
+        "name" : "Request",
+        "source" : "3368b1c9b277b98f.json",
+        "type" : "application/json",
+        "size" : 71
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1653227471324,
+        "stop" : 1653227471632,
+        "duration" : 308
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "86ee3f036b198d5",
+        "name" : "Response",
+        "source" : "86ee3f036b198d5.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1653227472328,
+        "stop" : 1653227472388,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3234c8889cac61db",
+        "name" : "Request",
+        "source" : "3234c8889cac61db.json",
+        "type" : "application/json",
+        "size" : 47
+      }, {
+        "uid" : "7100b640a2f8109c",
+        "name" : "Response",
+        "source" : "7100b640a2f8109c.json",
+        "type" : "application/json",
+        "size" : 639
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1653227472437,
+        "stop" : 1653227472510,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c762b3b93613056",
+        "name" : "Request",
+        "source" : "3c762b3b93613056.json",
+        "type" : "application/json",
+        "size" : 5368
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653227473512,
+        "stop" : 1653227473578,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a2745a479db70394",
+        "name" : "Request",
+        "source" : "a2745a479db70394.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "6ed7216f7ddc7932",
+        "name" : "Response",
+        "source" : "6ed7216f7ddc7932.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/b17b65a2-9b30-4670-99c6-4789327938c9/click",
+      "time" : {
+        "start" : 1653227473587,
+        "stop" : 1653227473777,
+        "duration" : 190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653227473777,
+        "stop" : 1653227473867,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "529a2c851c2fdab1",
+        "name" : "Request",
+        "source" : "529a2c851c2fdab1.json",
+        "type" : "application/json",
+        "size" : 79
+      }, {
+        "uid" : "f72516cd0c4a1882",
+        "name" : "Response",
+        "source" : "f72516cd0c4a1882.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/48ead88c-03bc-45cf-84f6-a50261464443/enabled",
+      "time" : {
+        "start" : 1653227473879,
+        "stop" : 1653227473919,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e830739703fbad7f",
+        "name" : "Response",
+        "source" : "e830739703fbad7f.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653227473922,
+        "stop" : 1653227473965,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b517ddd9e0ffac5a",
+        "name" : "Request",
+        "source" : "b517ddd9e0ffac5a.json",
+        "type" : "application/json",
+        "size" : 79
+      }, {
+        "uid" : "85d93ebc2ea78be9",
+        "name" : "Response",
+        "source" : "85d93ebc2ea78be9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/48ead88c-03bc-45cf-84f6-a50261464443/click",
+      "time" : {
+        "start" : 1653227473971,
+        "stop" : 1653227474081,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 12,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "testClass",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "testMethod",
+    "value" : "6.Edit the existing advertisement"
+  }, {
+    "name" : "package",
+    "value" : "Herokuapp Advertisement App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8b384fbc6200886e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653227382128,
+        "stop" : 1653227385494,
+        "duration" : 3366
+      }
+    }, {
+      "uid" : "fa29719c87da1537",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653226579842,
+        "stop" : 1653226589792,
+        "duration" : 9950
+      }
+    }, {
+      "uid" : "28f876f591824769",
+      "status" : "broken",
+      "statusDetails" : "firstRecord.doubleClick is not a function",
+      "time" : {
+        "start" : 1653226502102,
+        "stop" : 1653226509954,
+        "duration" : 7852
+      }
+    }, {
+      "uid" : "cf740a9b176d0ebd",
+      "status" : "broken",
+      "statusDetails" : "Cannot read properties of undefined (reading 'doubleClick')",
+      "time" : {
+        "start" : 1653226448251,
+        "stop" : 1653226456311,
+        "duration" : 8060
+      }
+    }, {
+      "uid" : "e44fb2711a9a0406",
+      "status" : "broken",
+      "statusDetails" : "firstAdvName is not defined",
+      "time" : {
+        "start" : 1653226220902,
+        "stop" : 1653226232173,
+        "duration" : 11271
+      }
+    }, {
+      "uid" : "9536b56748499f9b",
+      "status" : "broken",
+      "statusDetails" : "Cannot read properties of undefined (reading 'doubleClick')",
+      "time" : {
+        "start" : 1653226105060,
+        "stop" : 1653226112549,
+        "duration" : 7489
+      }
+    }, {
+      "uid" : "ef520e702036615e",
+      "status" : "broken",
+      "statusDetails" : "Cannot read properties of undefined (reading 'waitForExist')",
+      "time" : {
+        "start" : 1653226058684,
+        "stop" : 1653226068110,
+        "duration" : 9426
+      }
+    }, {
+      "uid" : "2d2920ce5b7c69a7",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression (tbody tr:nth-child(1) td:nth-child(1) because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(tbody tr:nth-child(1) td:nth-child(1)' is not a valid XPath expression.\n                  (Session info: chrome=101.0.4951.54)",
+      "time" : {
+        "start" : 1653225546031,
+        "stop" : 1653225554412,
+        "duration" : 8381
+      }
+    }, {
+      "uid" : "1924ef068e55b771",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression (tbody tr:nth-child(1) td:nth-child(1) because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(tbody tr:nth-child(1) td:nth-child(1)' is not a valid XPath expression.\n                  (Session info: chrome=101.0.4951.54)",
+      "time" : {
+        "start" : 1653225386722,
+        "stop" : 1653225394252,
+        "duration" : 7530
+      }
+    }, {
+      "uid" : "658866e69033a898",
+      "status" : "broken",
+      "statusDetails" : "Can't call doubleClick on element with selector \"(//td[@class='md-cell ng-binding'][normalize-space()='Hotel Taj'])[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1653224980320,
+        "stop" : 1653224992502,
+        "duration" : 12182
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c80383445c21d82.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

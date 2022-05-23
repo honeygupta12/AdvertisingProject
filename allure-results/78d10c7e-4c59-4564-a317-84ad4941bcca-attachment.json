@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//md-icon[@md-svg-icon='arrow-up.svg']"
+}

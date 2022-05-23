@@ -1,0 +1,79 @@
+{
+  "uid" : "ab9be49ace4a40fa",
+  "name" : "4.Create new advertisements succesfully using Json file",
+  "fullName" : "Herokuapp Advertisement Page.4.Create new advertisements succesfully using Json file",
+  "historyId" : "92d289009504de80a4ee56e9167da36",
+  "time" : {
+    "start" : 1653205008274,
+    "stop" : 1653205008274,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Herokuapp Advertisement Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Herokuapp Advertisement Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "4.Create new advertisements succesfully using Json file"
+  }, {
+    "name" : "package",
+    "value" : "Herokuapp Advertisement Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dee42db2376e52c8",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1653204903770,
+        "stop" : 1653204903770,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c9551ce2e5b539e8",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1653202076244,
+        "stop" : 1653202076244,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9757998b01d1f2f8",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1653200241366,
+        "stop" : 1653200241366,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab9be49ace4a40fa.json",
+  "parameterValues" : [ ]
+}

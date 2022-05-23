@@ -1,0 +1,198 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653227463897' stop='1653227474085'>
+    <name>Herokuapp Advertisement App</name>
+    <title>Herokuapp Advertisement App</title>
+    <test-cases>
+        <test-case start='1653227463899' status='pending' stop='1653227463899'>
+            <name>1.Validate the title of the page</name>
+            <title>1.Validate the title of the page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653227463899' status='pending' stop='1653227463899'>
+            <name>2.Validate the fields present on the create advertisement page</name>
+            <title>2.Validate the fields present on the create advertisement page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653227463900' status='pending' stop='1653227463900'>
+            <name>3.Verify the mandatory fields present on the create advertisement page</name>
+            <title>3.Verify the mandatory fields present on the create advertisement page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653227463900' status='pending' stop='1653227463900'>
+            <name>4.Create new advertisements succesfully using Json file</name>
+            <title>4.Create new advertisements succesfully using Json file</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653227463900' status='pending' stop='1653227463900'>
+            <name>5.Verify the advertisement are displayed successfully after creation</name>
+            <title>5.Verify the advertisement are displayed successfully after creation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653227463901' status='passed' stop='1653227474082'>
+            <name>6.Edit the existing advertisement</name>
+            <title>6.Edit the existing advertisement</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1653227463908' status='passed' stop='1653227471323'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b8589f22-6d65-4366-8019-74f8cb156823-attachment.json' type='application/json' size='71'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1653227471324' status='passed' stop='1653227471632'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='10cf8ff5-f315-47e0-b7dd-b37cdbcb804a-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1653227472328' status='passed' stop='1653227472388'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='0325702d-c4c3-45c6-8e43-f6ac8d5c6b8e-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='91018a1c-f786-4536-96f0-a2295ce68a36-attachment.json' type='application/json' size='639'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1653227472437' status='passed' stop='1653227472510'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='04ff4a75-4a0f-4b0d-a064-0cfc77d6682b-attachment.json' type='application/json' size='5368'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1653227473512' status='passed' stop='1653227473578'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a85f8e83-5b5b-4e96-b638-fb2232d0e4c2-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='1700acb7-299f-4a86-b10b-067bf0c604c1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1653227473587' status='passed' stop='1653227473777'>
+                    <name>POST /session/:sessionId/element/b17b65a2-9b30-4670-99c6-4789327938c9/click</name>
+                    <title>POST /session/:sessionId/element/b17b65a2-9b30-4670-99c6-4789327938c9/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1653227473777' status='passed' stop='1653227473867'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='844edbe6-a804-41d1-bd0b-e0a8584b7189-attachment.json' type='application/json' size='79'/>
+                        <attachment title='Response' source='614e296d-f2d2-498f-a9ce-8d97f12a64ab-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1653227473879' status='passed' stop='1653227473919'>
+                    <name>GET /session/:sessionId/element/48ead88c-03bc-45cf-84f6-a50261464443/enabled</name>
+                    <title>GET /session/:sessionId/element/48ead88c-03bc-45cf-84f6-a50261464443/enabled</title>
+                    <attachments>
+                        <attachment title='Response' source='4e613785-58f8-4ac1-87f2-06499f5f558b-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1653227473922' status='passed' stop='1653227473965'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2a56c6a1-6408-47db-8fc5-423acb823221-attachment.json' type='application/json' size='79'/>
+                        <attachment title='Response' source='38a9ebe1-b699-43e3-a5e3-da6d0c7a2ed5-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1653227473971' status='passed' stop='1653227474081'>
+                    <name>POST /session/:sessionId/element/48ead88c-03bc-45cf-84f6-a50261464443/click</name>
+                    <title>POST /session/:sessionId/element/48ead88c-03bc-45cf-84f6-a50261464443/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1653227474083' status='pending' stop='1653227474083'>
+            <name>7.Verify if the list of advertisements are getting sorted successfully</name>
+            <title>7.Verify if the list of advertisements are getting sorted successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653227474083' status='pending' stop='1653227474083'>
+            <name>8.Verify the format of price</name>
+            <title>8.Verify the format of price</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653227474083' status='pending' stop='1653227474084'>
+            <name>9.Verify on what condition, the save button is getting enabled??</name>
+            <title>9.Verify on what condition, the save button is getting enabled??</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
