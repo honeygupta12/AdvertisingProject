@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "(//td[@class='md-cell ng-binding'][normalize-space()='Hotel Taj'])[1]"
-}
