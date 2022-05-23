@@ -1,12 +1,10 @@
- **# AdvertisingAutomation**
+ # AdvertisingProject
 
-Project title is "AdvertisingProject".
+ ## Project Description
 
- **# Project Description**
+This project helps in creating advertisements and edit those advertisements successfully for the Herokuapp page. 
 
-My project helps in creating advertisements and edit those advertisements successfully for the Herokuapp page. 
-
- **# Technologies and Frameworks**
+ ## Technologies and Frameworks
 
  Test Automation Framework used -> WebdriverIO
  WebdriverIO is a automation framework built to automate modern web and mobile applications in Javascript. 
@@ -20,16 +18,16 @@ My project helps in creating advertisements and edit those advertisements succes
 
  Editor used -> Visual Studio Code.
 
- **# System Requirements**
+ ## System Requirements
  
    node.js and npm.
 
  To install node.js in windows/mac/linux -> Refer this page 'https://nodejs.org/en/download/'.
  Set the path NODE_HOME in your environment variables.
 
- **# Include Testcases**
+ ## Include Testcases
 
- **# Testcases are as follows**
+ ## Testcases are as follows
   1. Validate the title of the advertisement page.
   2. Validate the fields present on the create advertisement page.
   3. Verify the mandatory fields present on the create advertisement page.
@@ -40,11 +38,11 @@ My project helps in creating advertisements and edit those advertisements succes
   8. Verify the format of price that it accepts only integer values.
   9. Verify on what condition, the save button is getting enabled??
 
- **# Setup of project**
+ ## Setup of project
   After checkout of project from github, run the below command to reinstall the executable files,packages and its dependencies. 
   Command is: npm install
 
- **# To run the tests**
+ ## To run the tests
  
   Command -> npx wdio run wdio.conf.js 
   To run all the testcases at one shot, please execute the above command.
@@ -58,12 +56,12 @@ My project helps in creating advertisements and edit those advertisements succes
   });
   Testcase 8 will not be executed.
 
- **# To open the reports**
+ ## To open the reports
  
    I have used Allure Test Reports to see the execution details.
-         1. After the test execution, 'allure-results' folder will automatically created inside the project which will have .xml files.
-         2. npm install -g allure-commandline --save-dev -> Run this command which will install the allure commandline and converts .xml to html files.
-         3. allure generate allure-results && allure open -> this will open the reports in the browser.
+   1. After the test execution, 'allure-results' folder will automatically created inside the project which will have .xml files.
+   2. npm install -g allure-commandline --save-dev -> Run this command which will install the allure commandline and converts .xml to html files.
+   3. allure generate allure-results && allure open -> this will open the reports in the browser.
    (If the above command doesn't run in VSCode terminal then run it in cmd prompt)
 
 
