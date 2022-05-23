@@ -1,6 +1,6 @@
  **# AdvertisingAutomation**
 
-Project title is "AdvertisingAutomation".
+Project title is "AdvertisingProject".
 
  **# Project Description**
 
