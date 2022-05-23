@@ -1,6 +1,6 @@
- **# WEBDRIVERIO**
+ **# AdvertisingAutomation**
 
-Project title is "WEBDRIVERIO".
+Project title is "AdvertisingAutomation".
 
  **# Project Description**
 
